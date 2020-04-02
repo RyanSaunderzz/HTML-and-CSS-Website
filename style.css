@@ -1,0 +1,162 @@
+/* Header */
+
+
+body{
+    margin: 0;
+    background: #222;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    
+    overflow: hidden;
+
+}
+
+.header{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+    padding: 1px 0;
+
+    /* Makes changes to the header [eg; color] */
+    
+}
+    
+ header::after{
+    content: '';
+    display: grid;
+    clear: both;
+     
+}
+
+
+.logo{
+    float: left;
+    padding: 5px 3; 
+    opacity: 100%;
+    
+}
+
+nav{
+    float: right;
+    z-index: 4;
+    position: relative;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 20px;
+    padding-top: 30px;
+    margin-left: 50px:
+
+    
+}
+nav a{
+    color: #fff;
+    opacity: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px:
+    float: right;
+}
+
+nav a:hover{
+    color: #555;
+}
+
+
+
+.h1{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Courier New', sans-serif;
+    font-size: 50px;
+    align-items: center;
+    padding-right: 150px; 
+    padding-top: 100px;
+
+
+}
+
+.mess{
+    position: relative;
+    text-align: center;
+    color: red;
+    font-size: 55px;
+    text-transform: uppercase;
+    display: inherit;
+}
+
+.grid-container{
+    display: grid;
+    grid-column: 50px;
+    grid-row-gap: 50px 100px;
+}
+
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    opacity: 0.20;
+    background-repeat: no-repeat;
+
+    overflow: initial;
+  
+
+}
+
+
+h1::selection{
+    background-color: transparent;
+    color: #0061ff;
+}
+
+
+/*
+.button{
+     background: red;
+     color: #ffffff;
+     font-size: 22px;
+     border-radius: 20px;
+     text-decoration: none;
+     text-transform: uppercase;
+     
+     display: flow;
+     align-items: left;
+        
+}
+
+*/
+
+
+.btnn{
+    display: flex
+    
+    color: red;
+    background-color: yellow;
+    background: red;
+text: family;
+}
+
+
